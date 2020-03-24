@@ -1,2 +1,3 @@
 import requests
-print(requests.get('http://google.com/').text)
+print(requests.get('http://google.com/').status_code)
+
